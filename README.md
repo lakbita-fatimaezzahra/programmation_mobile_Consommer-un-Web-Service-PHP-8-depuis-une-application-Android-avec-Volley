@@ -16,19 +16,10 @@
 
 **Partie 2 — Développement du Web Service PHP 8**
 
-Étape 1 : Structure du projet <img width="579" height="517" alt="image" src="https://github.com/user-attachments/assets/348d03ea-2c9f-4e83-a15f-197e105b0dba" />
+Étape 1 : Structure du projet
 
-**classes/
+<img width="579" height="517" alt="image" src="https://github.com/user-attachments/assets/348d03ea-2c9f-4e83-a15f-197e105b0dba" />
 
-connexion/
-
-dao/
-
-service/
-
-controller/
-
-ws/**
 
 Étape 2 :Tester les Web Services avec Advanced REST Client
 
