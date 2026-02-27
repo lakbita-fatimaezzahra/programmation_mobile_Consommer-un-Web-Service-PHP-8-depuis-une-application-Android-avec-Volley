@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".AddStudent">
+
+    <!-- Formulaire -->
+    <TextView
+        android:text="Nom :"
+        style="@style/labelText" />
+    <EditText
+        android:id="@+id/nom"
+        style="@style/inputField"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:text="Prénom :"
+        style="@style/labelText" />
+    <EditText
+        android:id="@+id/prenom"
+        style="@style/inputField"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:text="Ville :"
+        style="@style/labelText" />
+    <Spinner
+        android:id="@+id/ville"
+        android:entries="@array/villes"
+        style="@style/inputField" />
+
+    <TextView
+        android:text="Sexe :"
+        style="@style/labelText" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/m"
+            android:text="Homme"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/f"
+            android:text="Femme"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/add"
+        android:text="Ajouter"
+        style="@style/actionButton" />
+
+</LinearLayout>

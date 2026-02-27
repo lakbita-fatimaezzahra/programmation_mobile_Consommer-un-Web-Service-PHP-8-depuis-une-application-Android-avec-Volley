@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- Array des villes -->
+    <string-array name="villes">
+        <item>Casablanca</item>
+        <item>Rabat</item>
+        <item>Marrakech</item>
+        <item>Fès</item>
+        <item>Tanger</item>
+    </string-array>
+</resources>
