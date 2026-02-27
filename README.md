@@ -248,8 +248,6 @@ Création du package beans contenant la classe Etudiant.
 
 Elle représente le modèle correspondant à la table etudiant en base de données.
 
-<img width="1135" height="714" alt="image" src="https://github.com/user-attachments/assets/c770cf2b-bb2a-4a16-b4f9-9004589722bb" />
-
 Rôle :
 
 Stocker les données
