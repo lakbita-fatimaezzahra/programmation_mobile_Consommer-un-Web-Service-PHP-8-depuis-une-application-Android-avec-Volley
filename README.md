@@ -329,3 +329,7 @@ Popup pour modification
 Suppression avec confirmation
 
 Rafraîchissement automatique après action
+
+**Simulation video**
+[Enregistrement de l'écran 2026-02-28 181336.zip](https://github.com/user-attachments/files/25625758/Enregistrement.de.l.ecran.2026-02-28.181336.zip)
+
