@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Layout principal -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#F5F7FA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:text="Liste des étudiants"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1E88E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D6D6D6"
+            android:layout_marginBottom="10dp"/>
+
+        <ListView
+            android:id="@+id/listViewStudents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#E0E0E0"
+            android:dividerHeight="1dp"
+            android:listSelector="#E3F2FD"/>
+
+    </LinearLayout>
+
+    <!-- Bouton + -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="Ajouter"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:backgroundTint="#1E88E5"/>
+
+</FrameLayout>

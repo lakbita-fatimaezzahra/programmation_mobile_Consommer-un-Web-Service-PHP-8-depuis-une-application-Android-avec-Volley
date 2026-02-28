@@ -55,6 +55,7 @@ public class AddStudent extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         if (v == add) {
             envoyerEtudiant();
+            finish();
         }
     }
 
