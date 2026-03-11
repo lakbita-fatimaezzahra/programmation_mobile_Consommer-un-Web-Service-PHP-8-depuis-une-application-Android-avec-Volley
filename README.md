@@ -333,3 +333,7 @@ Rafraîchissement automatique après action
 **Simulation video**
 [Enregistrement de l'écran 2026-02-28 181336.zip](https://github.com/user-attachments/files/25625758/Enregistrement.de.l.ecran.2026-02-28.181336.zip)
 
+
+**score securite**
+<img width="1316" height="479" alt="image" src="https://github.com/user-attachments/assets/bd49267c-fd87-4ea1-874a-aa15ce39db96" />
+
